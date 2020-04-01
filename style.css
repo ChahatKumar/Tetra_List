@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 194, 194);
+}
+.container{
+    height: 680px;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+.header{
+    height:180px;
+    width: 100%;
+    background-image: url(./img.jpg);
+    background-size: 100% 100%;
+}
+.clear{
+    position: absolute;
+    left: 980px;
+    font-size: 30px;
+    color: white;
+}
+.clear i{
+    background-color:rgb(192, 72, 72);
+    color: white;
+}
+#date{
+    font-size: 30px;
+    height: 22px;
+    width: 200px;
+    color: white;
+    background-color: rgb(16, 8, 46);
+    position: absolute;
+    left: 550px;
+    bottom: 540px;
+}
+.content{
+    margin-top: 10px;
+    height: auto;
+    min-height: 420px;
+    width: 500px;
+    background-color: white;
+}
+.add-to-do{
+    width: 500px;
+    height: 80px;
+    background-color: white;
+   
+}
+#input{
+    font-size: 25px;
+    height: 65px;
+    width: 380px;
+    background-color: rgb(211, 207, 207);
+    margin-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+.add-to-do i{
+    background-color: white;
+    font-size: 40px;
+    color: blue;
+    height: 30px;
+    width: 30px;
+    position: auto;
+}
+.fa-plus-circle{
+    margin-left: 10px;
+}
+#list{
+    background-color: white;
+}
+.item{
+    font-size: 25px;
+    width: 400px;
+    background-color: white;
+    list-style-type: none;
+    border-bottom: rgb(211, 207, 207);
+    border-bottom-style: solid;
+    margin-left: 40px;
+}
+.item i{
+    background-color: white;
+}
+#list li span{
+    background-color: white;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+#list i.co{
+    color: green;
+}
+.fa-volume-up{
+    color: rgb(138, 92, 23);
+    position: absolute;
+    left: 950px;
+}
+#list i.de{
+    color: rgb(100, 14, 14);
+    position: absolute;
+    left: 985px;
+}
+.add-to-do button{
+    height: 30px;
+    width: 30px;
+}
